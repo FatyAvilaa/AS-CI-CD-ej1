@@ -2,7 +2,8 @@ name: CI con pytest
 
 on:
   push:
-  pull_request:
+    branches:
+      - main
 
 jobs:
   test:
